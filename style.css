@@ -1,0 +1,40 @@
+body
+{
+    background-color: rgb(105, 96, 118);
+    color: white;
+    margin-top:80px
+}
+
+#mainouterdiv
+{
+    background-color: rgb(45, 38, 56);
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding: 20px;
+    border: 1px solid rgb(45, 38, 56);
+    border-radius: 20px;
+}
+#imagediv
+{
+    background-image: url('desertpic.jpg');
+    background-repeat: no-repeat;
+    background-position:top center;
+    background-size: cover;
+    height: 40vw;
+    width: 35vw;
+}
+#insideimage
+{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    justify-content:space-between;
+}
+h2
+{
+    font-family: "Asimovian", sans-serif;
+    font-weight: 300;
+}
