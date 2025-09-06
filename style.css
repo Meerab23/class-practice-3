@@ -44,4 +44,6 @@ h2
 {
     opacity: 0.9;
     padding: 6px;
+    border-radius: 10px;
+    border: transparent;
 }
