@@ -10,10 +10,11 @@ body
     background-color: rgb(45, 38, 56);
     display: flex;
     align-items: center;
-    justify-content:space-between;
-    margin-left: 60px;
-    margin-right: 60px;
-    padding: 20px;
+    justify-content: space-evenly;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     border: 1px solid rgb(45, 38, 56);
     border-radius: 20px;
 }
@@ -24,26 +25,36 @@ body
     background-position:top center;
     background-size: cover;
     height: 40vw;
-    width: 35vw;
-    border-radius: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
+    width: 50%;
+   text-align: center;
+   align-items: baseline;
+   border-radius: 20px;
+    /* margin-right: 380px; */
 }
-#insideimage
+#formdiv
 {
+    width: 45%;
+    text-align: center;
+
+}
+#top{
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content:space-between;
 }
-h2
-{
-    font-family: "Asimovian", sans-serif;
-    font-weight: 300;
+#amu{
+    margin-left: 10px;
 }
-#picbutton
-{
-    opacity: 0.9;
-    padding: 6px;
+#btn1{
+    background-color: transparent;
+    border: transparent;
+    color: rgb(255, 255, 255);
+    opacity: 1;
+}
+#topbtn{
+    margin-right: 10px;
     border-radius: 10px;
     border: transparent;
+    background-color: transparent;
+    opacity: 0.5;
 }
